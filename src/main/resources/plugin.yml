@@ -1,0 +1,4 @@
+name: CustomMessages
+version: '${version}'
+main: com.itsjambo.custommessages.CustomMessages
+api-version: '1.16'

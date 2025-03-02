@@ -1,1 +1,31 @@
-language: en # allowed languages: en, ru, ua. Default: en
+join:
+  enabled: true
+  message: "&a{player} has joined the game!"
+
+quit:
+  enabled: true
+  message: "&c{player} has left the game!"
+
+death:
+  enabled: true
+  message: "&c{player} died of {cause}. Killed by {killer}"
+
+chat:
+  enabled: true
+  message: "&e{player}: {message}"
+
+kick:
+  enabled: true
+  message: "&c{player} has been kicked from the server."
+
+ban:
+  enabled: true
+  message: "&c{player} has been banned from the server."
+
+respawn:
+  enabled: true
+  message: "&a{player} has respawned."
+
+levelup:
+  enabled: true
+  message: "&b{player} has leveled up!"
